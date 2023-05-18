@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = "https://maven.pkg.github.com/SariskaIO/maven-repository"
+            credentials {
+                username = "dipak140"
+                password = "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"
+            }
+        }
+    }
+}
+rootProject.name = "SariskaScreenSharingDemo"
+include ':app'

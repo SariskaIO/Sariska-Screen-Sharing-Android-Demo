@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SariskaScreenSharingDemo</string>
+    <string name="recording">Recording In Progress</string>
+    <string name="recording_stopped">Recording Stopped</string>
+    <string name="recording_started">Recording Started</string>
+    <string name="recording_failed">Recording Failed</string>
+    <string name="blob_provider_authority">com.example.sariskascreen</string>
+</resources>
